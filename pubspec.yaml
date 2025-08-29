@@ -1,0 +1,37 @@
+name: baraka
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  flutter_bloc: ^8.1.6
+  get_it: ^7.7.0
+  injectable: ^2.4.4
+  equatable: ^2.0.5
+  bloc: ^8.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.11
+  injectable_generator: ^2.6.2
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/images/placeholder.png
